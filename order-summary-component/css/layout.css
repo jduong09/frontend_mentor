@@ -1,0 +1,43 @@
+body {
+  box-sizing: border-box;
+  width: 100%;
+  background-color: hsl(225, 100%, 94%);
+}
+
+main {
+  width: 33%;
+  margin: auto;
+  text-align: center;
+  border: 1px solid hsl(225, 100%, 94%);
+  border-radius: 6px;
+  background-color: white;
+  font-weight: 500;
+}
+main > button, main > section, main > p {
+  width: 75%;
+  margin: 0 auto;
+}
+
+#icon {
+  float: left;
+  width: 30px;
+  height: 30px;
+}
+
+ul {
+  float: left;
+  text-align: left;
+}
+
+section > a {
+  height: 100%;
+  margin: auto;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+button {
+  background-color: hsl(245, 75%, 52%);
+}

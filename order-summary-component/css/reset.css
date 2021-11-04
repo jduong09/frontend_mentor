@@ -1,0 +1,22 @@
+html, body, div, span, h1, h2, h3, p, a, img, header, footer, nav, section, ul, li {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.group::after {
+  content: "";
+  display: block;
+  clear: both;
+}
