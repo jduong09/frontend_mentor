@@ -8,36 +8,70 @@ main {
   width: 33%;
   margin: auto;
   text-align: center;
-  border: 1px solid hsl(225, 100%, 94%);
+  border: 1px solid hsl(225, 100%, 98%);
   border-radius: 6px;
-  background-color: white;
+  background-color: hsl(225, 100%, 98%);
   font-weight: 500;
 }
-main > button, main > section, main > p {
+
+main > section, main > p {
   width: 75%;
   margin: 0 auto;
+  padding: 10px;
+}
+
+section { 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #icon {
-  float: left;
   width: 30px;
   height: 30px;
 }
 
-ul {
-  float: left;
-  text-align: left;
-}
-
-section > a {
-  height: 100%;
-  margin: auto;
-}
-
 h1 {
+  font-size: 24px;
   font-weight: 700;
+  color: hsl(223, 47%, 23%);
 }
 
 button {
+  width: 75%;
+  margin: 4px auto;
+  padding: 10px;
+}
+
+button:first-of-type {
+  color: white;
+  box-shadow: 0 6px 4px hsl(225, 100%, 94%);
   background-color: hsl(245, 75%, 52%);
+  border: 1px solid hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+
+button:first-of-type:hover {
+  background-color: hsla(245, 75%, 52%, 0.712);
+}
+
+button:last-of-type {
+  color: hsl(224, 23%, 55%);
+  font-weight: 900;
+  border: none;
+  background: none;
+}
+
+button:last-of-type:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+p {
+  color: hsl(224, 23%, 55%);
+  font-weight: 500;
+  font-size: 16px;
 }
