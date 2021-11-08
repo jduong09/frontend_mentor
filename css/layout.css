@@ -1,7 +1,9 @@
 body {
   box-sizing: border-box;
   width: 100%;
-  background-color: hsl(225, 100%, 94%);
+  background-image: url('../images/order_summary.png');
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Red Hat Display', sans-serif;
 }
 
